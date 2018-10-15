@@ -12,7 +12,7 @@ export const ProductPageTemplate = ({
   heading,
   description,
   intro,
-  // main,
+  main,
   testimonials,
   fullImage,
   pricing,
