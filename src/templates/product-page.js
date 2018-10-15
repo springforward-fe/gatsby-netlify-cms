@@ -12,7 +12,7 @@ export const ProductPageTemplate = ({
   heading,
   description,
   intro,
-  main,
+  // main,
   testimonials,
   fullImage,
   pricing,
@@ -157,7 +157,7 @@ ProductPage.propTypes = {
       frontmatter: PropTypes.object,
     }),
   }),
-}
+};
 
 export default ProductPage
 
@@ -211,4 +211,4 @@ export const productPageQuery = graphql`
       }
     }
   }
-`
+`;

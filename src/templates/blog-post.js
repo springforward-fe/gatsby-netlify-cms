@@ -44,7 +44,7 @@ export const BlogPostTemplate = ({
       </div>
     </section>
   )
-}
+};
 
 BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
@@ -52,7 +52,7 @@ BlogPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.instanceOf(Helmet),
-}
+};
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
