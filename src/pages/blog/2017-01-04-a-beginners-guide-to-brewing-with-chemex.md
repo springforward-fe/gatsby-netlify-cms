@@ -1,27 +1,48 @@
 ---
+category: springforward
+components:
+  - a
+cover: /logos/logo-1024.png
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
-date: 2017-01-04T15:04:10.000Z
-description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
+title: Top 7 Internet Companies
+date: 2018-10-10T14:04:10.000Z
+description: >-
+  Among the top 10 most valuable companies in the world, there are 7 of them are
+  internet companies. They are Apple(US), Google(US), Microsoft(US), Amazon(US),
+  Facebook(US), Tencent(China) and Alibaba(China).
 tags:
-  - brewing
-  - chemex
+  - finance
+  - investment
 ---
-![chemex](/img/chemex.jpg)
 
-This week we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts.
+Among the top 10 most valuable companies in the world, there are 7 of them are internet companies.  They are Apple(US), Google(US),  Microsoft(US), Amazon(US), Facebook(US), Tencent(China) and Alibaba(China).     
 
-In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital) said that the Chemex Coffeemaker is _"one of the best-designed products of modern times"_, and so is included in the collection of the Museum of Modern Art in New York City.
+## 1. Current market values and their history trends
 
-## The little secrets of Chemex brewing
+Below is snapshot of their current market values as of ${date} and 10-year history trends
 
-The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conical funnel-like neck (rather than the cylindrical neck of an Erlenmeyer flask) and uses proprietary filters, made of bonded paper (thicker-gauge paper than the standard paper filters for a drip-method coffeemaker) that removes most of the coffee oils, brewing coffee with a taste that is different than coffee brewed in other coffee-making systems; also, the thicker paper of the Chemex coffee filters may assist in removing cafestol, a cholesterol-containing compound found in coffee oils. Here’s three important tips newbies forget about:
+<line-time-series></line-time-series>
 
-1. Always buy dedicated Chemex filters.
-2. Use a scale, don’t try to eyeball it.
-3. Never skip preheating the glass.
-4. Timing is key, don’t forget the clock.
 
-The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
+## 2. Revenue per employee 
 
-For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.
+It’s interesting to see which company has the highest revenue-per-employee number
+
+<bar></bar>
+
+## 3. Key financial metrics comparisons
+### a. Revenue 	
+
+Below is their recent quarters’ revenues and YoY quarter growth rates. You could check which company grows fast. 
+
+<bar-circle-vertical></bar-circle-vertical>
+
+### b. Net income 
+Below is their recent quarters' net incomes and YoY quarter growth rates.  You could compare their growth rates to see which company grows fastest. 
+
+<bar-circle></bar-circle>
+
+
+### c. Revenue breakdown by their main business segments ($B)
+
+<donuts-3d></donuts-3d>
