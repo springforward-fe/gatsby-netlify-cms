@@ -9,7 +9,7 @@ const categories = [
   'Amazon',
   'Facebook',
   'Alibaba(阿里巴巴)',
-  'Tencent（腾讯'
+  'Tencent（腾讯)'
 
 ];
 

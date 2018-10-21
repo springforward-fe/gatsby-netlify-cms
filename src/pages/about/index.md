@@ -3,4 +3,4 @@ templateKey: about-page
 title: About our values
 ---
 ### Springforward
-Tech in Investment
+AI Guided Self-Service For Long Term Investor 

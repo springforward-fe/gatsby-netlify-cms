@@ -31,6 +31,7 @@ const config = {
   chart: {
     type: 'column',
     height: 400,
+    marginTop: 120,
   },
   title: {
     text: 'Net income comparision of top 7 companies (2017 Q3)'
