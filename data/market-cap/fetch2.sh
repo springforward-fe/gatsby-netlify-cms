@@ -1,0 +1,2 @@
+curl -o tmp.json "https://ycharts.com/charts/fund_data.json?securities=id:BABA,include:true,,&calcs=id:revenue_per_employee_annual,include:true,,id:market_cap,include:true&correlations=&format=real&recessions=false&zoom=5&startDate=&endDate=&chartView=&splitType=single&scaleType=linear&note=&title=&source=&units=&quoteLegend=&partner=&quotes=&legendOnChart=&securitylistSecurityId=&clientGroupLogoUrl=&displayTicker=false&ychartsLogo=True&useEstimates=false"
+

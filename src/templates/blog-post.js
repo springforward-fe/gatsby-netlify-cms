@@ -8,6 +8,7 @@ import Bar from '../components/charts/bar';
 import BarCircle from '../components/charts/bar-circle';
 import BarCircleVertical from '../components/charts/bar-circle-vertical';
 import Donuts3d from '../components/charts/donuts-3d';
+import LineTimeSeries from '../components/charts/line-time-series';
 import Content, { HTMLContent } from '../components/Content';
 
 export const BlogPostTemplate = ({
@@ -35,6 +36,7 @@ export const BlogPostTemplate = ({
               'bar-circle': BarCircle,
               'bar-circle-vertical': BarCircleVertical,
               'donuts-3d': Donuts3d,
+              'line-time-series': LineTimeSeries,
             }}/>
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>

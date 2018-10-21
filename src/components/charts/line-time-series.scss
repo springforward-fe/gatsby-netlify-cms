@@ -1,0 +1,42 @@
+.LineTimeSeries {
+    padding: 20px;
+}
+
+.LineTimeSeries .legend {
+    display: flex;
+}
+
+.LineTimeSeries .legend .symbol {
+    width: 40px;
+    height: 45px;
+    text-align: center;
+    position: relative;
+}
+.LineTimeSeries .legend .circle {
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.LineTimeSeries .legend .title {
+    font-size: 15px;
+    line-height: 45px;
+    margin-left: 5px;
+}
+
+.LineTimeSeries .highcharts-tooltip > span {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid lightGray;
+}
+
+@media screen and (max-width: 1200px) {
+    .LineTimeSeries .highcharts-legend {
+        zoom: 0.8;
+    }
+}

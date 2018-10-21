@@ -73,7 +73,7 @@ const config = {
       dataLabels: {
         enabled: true,
         formatter() {
-          return `<div style="color: ${this.color};">${numbro(this.y).format({output: 'percent'})}</div>`;
+          return `<div style="color: ${this.color};">${numbro(this.y).format({output: 'percent', mantissa: 0})}</div>`;
         }
       }
     },

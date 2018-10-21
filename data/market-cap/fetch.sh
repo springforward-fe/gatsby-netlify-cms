@@ -1,0 +1,2 @@
+curl -o $1.json "https://ycharts.com/charts/fund_data.json?securities=include%3Atrue%2Cid%3A$1%2C%2C&calcs=include%3Atrue%2Cid%3Amarket_cap%2C%2C&correlations=&format=real&recessions=false&zoom=custom&startDate=&endDate=&chartView=&splitType=&scaleType=&note=&title=&source=&units=&quoteLegend=&partner=&quotes=&legendOnChart=&securitylistSecurityId=&clientGroupLogoUrl=&displayTicker=&ychartsLogo=&useEstimates="
+
