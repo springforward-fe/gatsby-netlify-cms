@@ -1,9 +1,6 @@
 ---
-category: springforward
-components:
-  - a
 templateKey: blog-post
-title: Top 7 Internet Companies
+title: 'Top 8 Internet Companies '
 date: 2018-10-10T14:04:10.000Z
 description: >-
   Among the top 10 most valuable companies in the world, there are 7 of them are
