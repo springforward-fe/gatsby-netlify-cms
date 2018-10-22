@@ -11,8 +11,6 @@ tags:
   - investment
 ---
 
-Among the top 10 most valuable companies in the world, there are 7 of them are internet companies.  They are Apple(US), Google(US),  Microsoft(US), Amazon(US), Facebook(US), Tencent(China) and Alibaba(China).     
-
 ## 1. Current market values and their history trends
 
 Below is snapshot of their current market values as of ${date} and 10-year history trends
