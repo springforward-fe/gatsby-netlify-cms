@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Top 8 Internet Companies '
+title: 'Top 7 Internet Companies '
 date: 2018-10-10T14:04:10.000Z
 description: >-
   Among the top 10 most valuable companies in the world, there are 7 of them are
@@ -11,9 +11,11 @@ tags:
   - investment
 ---
 
+Among the top 10 most valuable companies in the world, there are 7 of them are internet companies.  They are Apple(US), Google(US),  Microsoft(US), Amazon(US), Facebook(US), Tencent(China) and Alibaba(China).     
+
 ## 1. Current market values and their history trends
 
-Below is snapshot of their current market values and 10-year history trends
+Below is snapshot of their current market values as of ${date} and 10-year history trends
 
 <line-time-series></line-time-series>
 
@@ -40,5 +42,3 @@ Below is their recent quarters' net incomes and YoY quarter growth rates.  You c
 ### c. Revenue breakdown by their main business segments ($B)
 
 <donuts-3d></donuts-3d>
-
-<survey-button></survey-button>
