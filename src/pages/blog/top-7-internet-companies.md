@@ -13,7 +13,7 @@ tags:
 
 ## 1. Current market values and their history trends
 
-Below is snapshot of their current market values as of ${date} and 10-year history trends
+Below is snapshot of their current market values and 10-year history trends
 
 <line-time-series></line-time-series>
 
