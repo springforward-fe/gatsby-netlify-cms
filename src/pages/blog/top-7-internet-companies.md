@@ -42,3 +42,5 @@ Below is their recent quarters' net incomes and YoY quarter growth rates.  You c
 ### c. Revenue breakdown by their main business segments ($B)
 
 <donuts-3d></donuts-3d>
+
+<survey-button></survey-button>
