@@ -11,6 +11,7 @@ import Donuts3d from '../components/charts/donuts-3d';
 import LineTimeSeries from '../components/charts/line-time-series';
 import SurveyButton from '../components/survey-button';
 import Content, { HTMLContent } from '../components/Content';
+import SEO from "../components/seo";
 
 export const BlogPostTemplate = ({
   content,
@@ -21,7 +22,7 @@ export const BlogPostTemplate = ({
   helmet,
 }) => {
   const PostContent = contentComponent || Content;
-  console.log(content);
+
   return (
     <section className="section">
       {helmet || ''}
@@ -67,11 +68,12 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.instanceOf(Helmet),
 };
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ data, pathContext: {slug} }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
+      <SEO postPath={slug} postNode={post} postSEO={true} />
       <BlogPostTemplate
         content={post.htmlAst}
         contentComponent={HTMLContent}
